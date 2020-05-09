@@ -1,2 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.pc.cas.CustomPasswordEncoder
+  org.apereo.cas.config.CasEmbeddedContainerTomcatConfiguration,\
+  org.apereo.cas.config.CasEmbeddedContainerTomcatFiltersConfiguration,\
+  com.pc.cas.CustomPasswordEncoder
